@@ -1,5 +1,12 @@
 WebDriver driver = new ChromeDriver();
 driver.get("https://www.irctc.com/contact.html");
 driver.quit();
+<<<<<<< HEAD
 driver.close();
 driver.get();
+=======
+driver.manage().window().maximize();
+>>>>>>> branch 'main' of https://github.com/kunalgawade123/practice1.git
+driver.navigate().refresh();
+driver.navigate().back();
+driver.navigate().forward();
